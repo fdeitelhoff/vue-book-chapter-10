@@ -3,14 +3,14 @@ import {
   createWebHistory,
 } from 'vue-router/dist/vue-router.esm-bundler';
 // import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../components/Home.vue';
-import About from '../components/About.vue';
-import Profile from '../components/Profile.vue';
-import NotFoundComponent from '../components/NotFoundComponent.vue';
-import UserSettings from '../components/settings/UserSettings.vue';
-import UserSettingsProfile from '../components/settings/UserSettingsProfile.vue';
-import UserSettingsPassword from '../components/settings/UserSettingsPassword.vue';
-import Login from '../components/auth/Login.vue';
+import Home from '../views/Home.vue';
+import About from '../views/About.vue';
+import Profile from '../views/Profile.vue';
+import NotFoundComponent from '../views/NotFoundComponent.vue';
+import UserSettings from '../views/settings/UserSettings.vue';
+import UserSettingsProfile from '../views/settings/UserSettingsProfile.vue';
+import UserSettingsPassword from '../views/settings/UserSettingsPassword.vue';
+import Login from '../views/auth/Login.vue';
 
 const routes = [
   {
